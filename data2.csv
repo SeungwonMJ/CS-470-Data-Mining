@@ -1,0 +1,304 @@
+person ID,age,gender,chest pain type,resting blood pressure,serum cholesterol in mg/dl,fasting blood sugar > 120 mg/dl,resting electrocardiographic results,maximum heart rate achieved,exercise induced angina,oldpeak = ST depression induced by exercise relative to rest,the slope of the peak exercise ST segment,number of major vessels (0-3) colored by flourosopy,Has heart disease? (Prediction Target)
+1,63,M,Type 3,145,233,Yes,hypertrophy of heart,150,No,2.3,0,0,Yes
+2,37,M,Type 2,130,250,No,myocardial infarction,187,No,3.5,0,0,Yes
+3,41,F,Type 1,130,204,No,hypertrophy of heart,172,No,1.4,2,0,Yes
+4,56,M,Type 1,120,236,No,myocardial infarction,178,No,0.8,2,0,Yes
+5,57,F,Type 0,120,354,No,myocardial infarction,163,Yes,0.6,2,0,Yes
+6,57,M,Type 0,140,192,No,myocardial infarction,148,No,0.4,1,0,Yes
+7,56,F,Type 1,140,294,No,hypertrophy of heart,153,No,1.3,1,0,Yes
+8,44,M,Type 1,120,263,No,myocardial infarction,173,No,0,2,0,Yes
+9,52,M,Type 2,172,199,Yes,myocardial infarction,162,No,0.5,2,0,Yes
+10,57,M,Type 2,150,168,No,myocardial infarction,174,No,1.6,2,0,Yes
+11,54,M,Type 0,140,239,No,myocardial infarction,160,No,1.2,2,0,Yes
+12,48,F,Type 2,130,275,No,myocardial infarction,139,No,0.2,2,0,Yes
+13,49,M,Type 1,130,266,No,myocardial infarction,171,No,0.6,2,0,Yes
+14,64,M,Type 3,110,211,No,hypertrophy of heart,144,Yes,1.8,1,0,Yes
+15,58,F,Type 3,150,283,Yes,hypertrophy of heart,162,No,1,2,0,Yes
+16,50,F,Type 2,120,219,No,myocardial infarction,158,No,1.6,1,0,Yes
+17,58,F,Type 2,120,340,No,myocardial infarction,172,No,0,2,0,Yes
+18,66,F,Type 3,150,226,No,myocardial infarction,114,No,2.6,0,0,Yes
+19,43,M,Type 0,150,247,No,myocardial infarction,171,No,1.5,2,0,Yes
+20,69,F,Type 3,140,239,No,myocardial infarction,151,No,1.8,2,2,Yes
+21,59,M,Type 0,135,234,No,myocardial infarction,161,No,0.5,1,0,Yes
+22,44,M,Type 2,130,233,No,myocardial infarction,179,Yes,0.4,2,0,Yes
+23,42,M,Type 0,140,226,No,myocardial infarction,178,No,0,2,0,Yes
+24,61,M,Type 2,150,243,Yes,myocardial infarction,137,Yes,1,1,0,Yes
+25,40,M,Type 3,140,199,No,myocardial infarction,178,Yes,1.4,2,0,Yes
+26,71,F,Type 1,160,302,No,myocardial infarction,162,No,0.4,2,2,Yes
+27,59,M,Type 2,150,212,Yes,myocardial infarction,157,No,1.6,2,0,Yes
+28,51,M,Type 2,110,175,No,myocardial infarction,123,No,0.6,2,0,Yes
+29,65,F,Type 2,140,417,Yes,hypertrophy of heart,157,No,0.8,2,1,Yes
+30,53,M,Type 2,130,197,Yes,hypertrophy of heart,152,No,1.2,0,0,Yes
+31,41,F,Type 1,105,198,No,myocardial infarction,168,No,0,2,1,Yes
+32,65,M,Type 0,120,177,No,myocardial infarction,140,No,0.4,2,0,Yes
+33,44,M,Type 1,130,219,No,hypertrophy of heart,188,No,0,2,0,Yes
+34,54,M,Type 2,125,273,No,hypertrophy of heart,152,No,0.5,0,1,Yes
+35,51,M,Type 3,125,213,No,hypertrophy of heart,125,Yes,1.4,2,1,Yes
+36,46,F,Type 2,142,177,No,hypertrophy of heart,160,Yes,1.4,0,0,Yes
+37,54,F,Type 2,135,304,Yes,myocardial infarction,170,No,0,2,0,Yes
+38,54,M,Type 2,150,232,No,hypertrophy of heart,165,No,1.6,2,0,Yes
+39,65,F,Type 2,155,269,No,myocardial infarction,148,No,0.8,2,0,Yes
+40,65,F,Type 2,160,360,No,hypertrophy of heart,151,No,0.8,2,0,Yes
+41,51,F,Type 2,140,308,No,hypertrophy of heart,142,No,1.5,2,1,Yes
+42,48,M,Type 1,130,245,No,hypertrophy of heart,180,No,0.2,1,0,Yes
+43,45,M,Type 0,104,208,No,hypertrophy of heart,148,Yes,3,1,0,Yes
+44,53,F,Type 0,130,264,No,hypertrophy of heart,143,No,0.4,1,0,Yes
+45,39,M,Type 2,140,321,No,hypertrophy of heart,182,No,0,2,0,Yes
+46,52,M,Type 1,120,325,No,myocardial infarction,172,No,0.2,2,0,Yes
+47,44,M,Type 2,140,235,No,hypertrophy of heart,180,No,0,2,0,Yes
+48,47,M,Type 2,138,257,No,hypertrophy of heart,156,No,0,2,0,Yes
+49,53,F,Type 2,128,216,No,hypertrophy of heart,115,No,0,2,0,Yes
+50,53,F,Type 0,138,234,No,hypertrophy of heart,160,No,0,2,0,Yes
+51,51,F,Type 2,130,256,No,hypertrophy of heart,149,No,0.5,2,0,Yes
+52,66,M,Type 0,120,302,No,hypertrophy of heart,151,No,0.4,1,0,Yes
+53,62,M,Type 2,130,231,No,myocardial infarction,146,No,1.8,1,3,Yes
+54,44,F,Type 2,108,141,No,myocardial infarction,175,No,0.6,1,0,Yes
+55,63,F,Type 2,135,252,No,hypertrophy of heart,172,No,0,2,0,Yes
+56,52,M,Type 1,134,201,No,myocardial infarction,158,No,0.8,2,1,Yes
+57,48,M,Type 0,122,222,No,hypertrophy of heart,186,No,0,2,0,Yes
+58,45,M,Type 0,115,260,No,hypertrophy of heart,185,No,0,2,0,Yes
+59,34,M,Type 3,118,182,No,hypertrophy of heart,174,No,0,2,0,Yes
+60,57,F,Type 0,128,303,No,hypertrophy of heart,159,No,0,2,1,Yes
+61,71,F,Type 2,110,265,Yes,hypertrophy of heart,130,No,0,2,1,Yes
+62,54,M,Type 1,108,309,No,myocardial infarction,156,No,0,2,0,Yes
+63,52,M,Type 3,118,186,No,hypertrophy of heart,190,No,0,1,0,Yes
+64,41,M,Type 1,135,203,No,myocardial infarction,132,No,0,1,0,Yes
+65,58,M,Type 2,140,211,Yes,hypertrophy of heart,165,No,0,2,0,Yes
+66,35,F,Type 0,138,183,No,myocardial infarction,182,No,1.4,2,0,Yes
+67,51,M,Type 2,100,222,No,myocardial infarction,143,Yes,1.2,1,0,Yes
+68,45,F,Type 1,130,234,No,hypertrophy of heart,175,No,0.6,1,0,Yes
+69,44,M,Type 1,120,220,No,myocardial infarction,170,No,0,2,0,Yes
+70,62,F,Type 0,124,209,No,myocardial infarction,163,No,0,2,0,Yes
+71,54,M,Type 2,120,258,No,hypertrophy of heart,147,No,0.4,1,0,Yes
+72,51,M,Type 2,94,227,No,myocardial infarction,154,Yes,0,2,1,Yes
+73,29,M,Type 1,130,204,No,hypertrophy of heart,202,No,0,2,0,Yes
+74,51,M,Type 0,140,261,No,hypertrophy of heart,186,Yes,0,2,0,Yes
+75,43,F,Type 2,122,213,No,myocardial infarction,165,No,0.2,1,0,Yes
+76,55,F,Type 1,135,250,No,hypertrophy of heart,161,No,1.4,1,0,Yes
+77,51,M,Type 2,125,245,Yes,hypertrophy of heart,166,No,2.4,1,0,Yes
+78,59,M,Type 1,140,221,No,myocardial infarction,164,Yes,0,2,0,Yes
+79,52,M,Type 1,128,205,Yes,myocardial infarction,184,No,0,2,0,Yes
+80,58,M,Type 2,105,240,No,hypertrophy of heart,154,Yes,0.6,1,0,Yes
+81,41,M,Type 2,112,250,No,myocardial infarction,179,No,0,2,0,Yes
+82,45,M,Type 1,128,308,No,hypertrophy of heart,170,No,0,2,0,Yes
+83,60,F,Type 2,102,318,No,myocardial infarction,160,No,0,2,1,Yes
+84,52,M,Type 3,152,298,Yes,myocardial infarction,178,No,1.2,1,0,Yes
+85,42,F,Type 0,102,265,No,hypertrophy of heart,122,No,0.6,1,0,Yes
+86,67,F,Type 2,115,564,No,hypertrophy of heart,160,No,1.6,1,0,Yes
+87,68,M,Type 2,118,277,No,myocardial infarction,151,No,1,2,1,Yes
+88,46,M,Type 1,101,197,Yes,myocardial infarction,156,No,0,2,0,Yes
+89,54,F,Type 2,110,214,No,myocardial infarction,158,No,1.6,1,0,Yes
+90,58,F,Type 0,100,248,No,hypertrophy of heart,122,No,1,1,0,Yes
+91,48,M,Type 2,124,255,Yes,myocardial infarction,175,No,0,2,2,Yes
+92,57,M,Type 0,132,207,No,myocardial infarction,168,Yes,0,2,0,Yes
+93,52,M,Type 2,138,223,No,myocardial infarction,169,No,0,2,4,Yes
+94,54,F,Type 1,132,288,Yes,hypertrophy of heart,159,Yes,0,2,1,Yes
+95,45,F,Type 1,112,160,No,myocardial infarction,138,No,0,1,0,Yes
+96,53,M,Type 0,142,226,No,hypertrophy of heart,111,Yes,0,2,0,Yes
+97,62,F,Type 0,140,394,No,hypertrophy of heart,157,No,1.2,1,0,Yes
+98,52,M,Type 0,108,233,Yes,myocardial infarction,147,No,0.1,2,3,Yes
+99,43,M,Type 2,130,315,No,myocardial infarction,162,No,1.9,2,1,Yes
+100,53,M,Type 2,130,246,Yes,hypertrophy of heart,173,No,0,2,3,Yes
+101,42,M,Type 3,148,244,No,hypertrophy of heart,178,No,0.8,2,2,Yes
+102,59,M,Type 3,178,270,No,hypertrophy of heart,145,No,4.2,0,0,Yes
+103,63,F,Type 1,140,195,No,myocardial infarction,179,No,0,2,2,Yes
+104,42,M,Type 2,120,240,Yes,myocardial infarction,194,No,0.8,0,0,Yes
+105,50,M,Type 2,129,196,No,myocardial infarction,163,No,0,2,0,Yes
+106,68,F,Type 2,120,211,No,hypertrophy of heart,115,No,1.5,1,0,Yes
+107,69,M,Type 3,160,234,Yes,hypertrophy of heart,131,No,0.1,1,1,Yes
+108,45,F,Type 0,138,236,No,hypertrophy of heart,152,Yes,0.2,1,0,Yes
+109,50,F,Type 1,120,244,No,myocardial infarction,162,No,1.1,2,0,Yes
+110,50,F,Type 0,110,254,No,hypertrophy of heart,159,No,0,2,0,Yes
+111,64,F,Type 0,180,325,No,myocardial infarction,154,Yes,0,2,0,Yes
+112,57,M,Type 2,150,126,Yes,myocardial infarction,173,No,0.2,2,1,Yes
+113,64,F,Type 2,140,313,No,myocardial infarction,133,No,0.2,2,0,Yes
+114,43,M,Type 0,110,211,No,myocardial infarction,161,No,0,2,0,Yes
+115,55,M,Type 1,130,262,No,myocardial infarction,155,No,0,2,0,Yes
+116,37,F,Type 2,120,215,No,myocardial infarction,170,No,0,2,0,Yes
+117,41,M,Type 2,130,214,No,hypertrophy of heart,168,No,2,1,0,Yes
+118,56,M,Type 3,120,193,No,hypertrophy of heart,162,No,1.9,1,0,Yes
+119,46,F,Type 1,105,204,No,myocardial infarction,172,No,0,2,0,Yes
+120,46,F,Type 0,138,243,No,hypertrophy of heart,152,Yes,0,1,0,Yes
+121,64,F,Type 0,130,303,No,myocardial infarction,122,No,2,1,2,Yes
+122,59,M,Type 0,138,271,No,hypertrophy of heart,182,No,0,2,0,Yes
+123,41,F,Type 2,112,268,No,hypertrophy of heart,172,Yes,0,2,0,Yes
+124,54,F,Type 2,108,267,No,hypertrophy of heart,167,No,0,2,0,Yes
+125,39,F,Type 2,94,199,No,myocardial infarction,179,No,0,2,0,Yes
+126,34,F,Type 1,118,210,No,myocardial infarction,192,No,0.7,2,0,Yes
+127,47,M,Type 0,112,204,No,myocardial infarction,143,No,0.1,2,0,Yes
+128,67,F,Type 2,152,277,No,myocardial infarction,172,No,0,2,1,Yes
+129,52,F,Type 2,136,196,No,hypertrophy of heart,169,No,0.1,1,0,Yes
+130,74,F,Type 1,120,269,No,hypertrophy of heart,121,Yes,0.2,2,1,Yes
+131,54,F,Type 2,160,201,No,myocardial infarction,163,No,0,2,1,Yes
+132,49,F,Type 1,134,271,No,myocardial infarction,162,No,0,1,0,Yes
+133,42,M,Type 1,120,295,No,myocardial infarction,162,No,0,2,0,Yes
+134,41,M,Type 1,110,235,No,myocardial infarction,153,No,0,2,0,Yes
+135,41,F,Type 1,126,306,No,myocardial infarction,163,No,0,2,0,Yes
+136,49,F,Type 0,130,269,No,myocardial infarction,163,No,0,2,0,Yes
+137,60,F,Type 2,120,178,Yes,myocardial infarction,96,No,0,2,0,Yes
+138,62,M,Type 1,128,208,Yes,hypertrophy of heart,140,No,0,2,0,Yes
+139,57,M,Type 0,110,201,No,myocardial infarction,126,Yes,1.5,1,0,Yes
+140,64,M,Type 0,128,263,No,myocardial infarction,105,Yes,0.2,1,1,Yes
+141,51,F,Type 2,120,295,No,hypertrophy of heart,157,No,0.6,2,0,Yes
+142,43,M,Type 0,115,303,No,myocardial infarction,181,No,1.2,1,0,Yes
+143,42,F,Type 2,120,209,No,myocardial infarction,173,No,0,1,0,Yes
+144,67,F,Type 0,106,223,No,myocardial infarction,142,No,0.3,2,2,Yes
+145,76,F,Type 2,140,197,No,ischemia,116,No,1.1,1,0,Yes
+146,70,M,Type 1,156,245,No,hypertrophy of heart,143,No,0,2,0,Yes
+147,44,F,Type 2,118,242,No,myocardial infarction,149,No,0.3,1,1,Yes
+148,60,F,Type 3,150,240,No,myocardial infarction,171,No,0.9,2,0,Yes
+149,44,M,Type 2,120,226,No,myocardial infarction,169,No,0,2,0,Yes
+150,42,M,Type 2,130,180,No,myocardial infarction,150,No,0,2,0,Yes
+151,66,M,Type 0,160,228,No,hypertrophy of heart,138,No,2.3,2,0,Yes
+152,71,F,Type 0,112,149,No,myocardial infarction,125,No,1.6,1,0,Yes
+153,64,M,Type 3,170,227,No,hypertrophy of heart,155,No,0.6,1,0,Yes
+154,66,F,Type 2,146,278,No,hypertrophy of heart,152,No,0,1,1,Yes
+155,39,F,Type 2,138,220,No,myocardial infarction,152,No,0,1,0,Yes
+156,58,F,Type 0,130,197,No,myocardial infarction,131,No,0.6,1,0,Yes
+157,47,M,Type 2,130,253,No,myocardial infarction,179,No,0,2,0,Yes
+158,35,M,Type 1,122,192,No,myocardial infarction,174,No,0,2,0,Yes
+159,58,M,Type 1,125,220,No,myocardial infarction,144,No,0.4,1,4,Yes
+160,56,M,Type 1,130,221,No,hypertrophy of heart,163,No,0,2,0,Yes
+161,56,M,Type 1,120,240,No,myocardial infarction,169,No,0,0,0,Yes
+162,55,F,Type 1,132,342,No,myocardial infarction,166,No,1.2,2,0,Yes
+163,41,M,Type 1,120,157,No,myocardial infarction,182,No,0,2,0,Yes
+164,38,M,Type 2,138,175,No,myocardial infarction,173,No,0,2,4,Yes
+165,38,M,Type 2,138,175,No,myocardial infarction,173,No,0,2,4,Yes
+166,67,M,Type 0,160,286,No,hypertrophy of heart,108,Yes,1.5,1,3,No
+167,67,M,Type 0,120,229,No,hypertrophy of heart,129,Yes,2.6,1,2,No
+168,62,F,Type 0,140,268,No,hypertrophy of heart,160,No,3.6,0,2,No
+169,63,M,Type 0,130,254,No,hypertrophy of heart,147,No,1.4,1,1,No
+170,53,M,Type 0,140,203,Yes,hypertrophy of heart,155,Yes,3.1,0,0,No
+171,56,M,Type 2,130,256,Yes,hypertrophy of heart,142,Yes,0.6,1,1,No
+172,48,M,Type 1,110,229,No,myocardial infarction,168,No,1,0,0,No
+173,58,M,Type 1,120,284,No,hypertrophy of heart,160,No,1.8,1,0,No
+174,58,M,Type 2,132,224,No,hypertrophy of heart,173,No,3.2,2,2,No
+175,60,M,Type 0,130,206,No,hypertrophy of heart,132,Yes,2.4,1,2,No
+176,40,M,Type 0,110,167,No,hypertrophy of heart,114,Yes,2,1,0,No
+177,60,M,Type 0,117,230,Yes,myocardial infarction,160,Yes,1.4,2,2,No
+178,64,M,Type 2,140,335,No,myocardial infarction,158,No,0,2,0,No
+179,43,M,Type 0,120,177,No,hypertrophy of heart,120,Yes,2.5,1,0,No
+180,57,M,Type 0,150,276,No,hypertrophy of heart,112,Yes,0.6,1,1,No
+181,55,M,Type 0,132,353,No,myocardial infarction,132,Yes,1.2,1,1,No
+182,65,F,Type 0,150,225,No,hypertrophy of heart,114,No,1,1,3,No
+183,61,F,Type 0,130,330,No,hypertrophy of heart,169,No,0,2,0,No
+184,58,M,Type 2,112,230,No,hypertrophy of heart,165,No,2.5,1,1,No
+185,50,M,Type 0,150,243,No,hypertrophy of heart,128,No,2.6,1,0,No
+186,44,M,Type 0,112,290,No,hypertrophy of heart,153,No,0,2,1,No
+187,60,M,Type 0,130,253,No,myocardial infarction,144,Yes,1.4,2,1,No
+188,54,M,Type 0,124,266,No,hypertrophy of heart,109,Yes,2.2,1,1,No
+189,50,M,Type 2,140,233,No,myocardial infarction,163,No,0.6,1,1,No
+190,41,M,Type 0,110,172,No,hypertrophy of heart,158,No,0,2,0,No
+191,51,F,Type 0,130,305,No,myocardial infarction,142,Yes,1.2,1,0,No
+192,58,M,Type 0,128,216,No,hypertrophy of heart,131,Yes,2.2,1,3,No
+193,54,M,Type 0,120,188,No,myocardial infarction,113,No,1.4,1,1,No
+194,60,M,Type 0,145,282,No,hypertrophy of heart,142,Yes,2.8,1,2,No
+195,60,M,Type 2,140,185,No,hypertrophy of heart,155,No,3,1,0,No
+196,59,M,Type 0,170,326,No,hypertrophy of heart,140,Yes,3.4,0,0,No
+197,46,M,Type 2,150,231,No,myocardial infarction,147,No,3.6,1,0,No
+198,67,M,Type 0,125,254,Yes,myocardial infarction,163,No,0.2,1,2,No
+199,62,M,Type 0,120,267,No,myocardial infarction,99,Yes,1.8,1,2,No
+200,65,M,Type 0,110,248,No,hypertrophy of heart,158,No,0.6,2,2,No
+201,44,M,Type 0,110,197,No,hypertrophy of heart,177,No,0,2,1,No
+202,60,M,Type 0,125,258,No,hypertrophy of heart,141,Yes,2.8,1,1,No
+203,58,M,Type 0,150,270,No,hypertrophy of heart,111,Yes,0.8,2,0,No
+204,68,M,Type 2,180,274,Yes,hypertrophy of heart,150,Yes,1.6,1,0,No
+205,62,F,Type 0,160,164,No,hypertrophy of heart,145,No,6.2,0,3,No
+206,52,M,Type 0,128,255,No,myocardial infarction,161,Yes,0,2,1,No
+207,59,M,Type 0,110,239,No,hypertrophy of heart,142,Yes,1.2,1,1,No
+208,60,F,Type 0,150,258,No,hypertrophy of heart,157,No,2.6,1,2,No
+209,49,M,Type 2,120,188,No,myocardial infarction,139,No,2,1,3,No
+210,59,M,Type 0,140,177,No,myocardial infarction,162,Yes,0,2,1,No
+211,57,M,Type 2,128,229,No,hypertrophy of heart,150,No,0.4,1,1,No
+212,61,M,Type 0,120,260,No,myocardial infarction,140,Yes,3.6,1,1,No
+213,39,M,Type 0,118,219,No,myocardial infarction,140,No,1.2,1,0,No
+214,61,F,Type 0,145,307,No,hypertrophy of heart,146,Yes,1,1,0,No
+215,56,M,Type 0,125,249,Yes,hypertrophy of heart,144,Yes,1.2,1,1,No
+216,43,F,Type 0,132,341,Yes,hypertrophy of heart,136,Yes,3,1,0,No
+217,62,F,Type 2,130,263,No,myocardial infarction,97,No,1.2,1,1,No
+218,63,M,Type 0,130,330,Yes,hypertrophy of heart,132,Yes,1.8,2,3,No
+219,65,M,Type 0,135,254,No,hypertrophy of heart,127,No,2.8,1,1,No
+220,48,M,Type 0,130,256,Yes,hypertrophy of heart,150,Yes,0,2,2,No
+221,63,F,Type 0,150,407,No,hypertrophy of heart,154,No,4,1,3,No
+222,55,M,Type 0,140,217,No,myocardial infarction,111,Yes,5.6,0,0,No
+223,65,M,Type 3,138,282,Yes,hypertrophy of heart,174,No,1.4,1,1,No
+224,56,F,Type 0,200,288,Yes,hypertrophy of heart,133,Yes,4,0,2,No
+225,54,M,Type 0,110,239,No,myocardial infarction,126,Yes,2.8,1,1,No
+226,70,M,Type 0,145,174,No,myocardial infarction,125,Yes,2.6,0,0,No
+227,62,M,Type 1,120,281,No,hypertrophy of heart,103,No,1.4,1,1,No
+228,35,M,Type 0,120,198,No,myocardial infarction,130,Yes,1.6,1,0,No
+229,59,M,Type 3,170,288,No,hypertrophy of heart,159,No,0.2,1,0,No
+230,64,M,Type 2,125,309,No,myocardial infarction,131,Yes,1.8,1,0,No
+231,47,M,Type 2,108,243,No,myocardial infarction,152,No,0,2,0,No
+232,57,M,Type 0,165,289,Yes,hypertrophy of heart,124,No,1,1,3,No
+233,55,M,Type 0,160,289,No,hypertrophy of heart,145,Yes,0.8,1,1,No
+234,64,M,Type 0,120,246,No,hypertrophy of heart,96,Yes,2.2,0,1,No
+235,70,M,Type 0,130,322,No,hypertrophy of heart,109,No,2.4,1,3,No
+236,51,M,Type 0,140,299,No,myocardial infarction,173,Yes,1.6,2,0,No
+237,58,M,Type 0,125,300,No,hypertrophy of heart,171,No,0,2,2,No
+238,60,M,Type 0,140,293,No,hypertrophy of heart,170,No,1.2,1,2,No
+239,77,M,Type 0,125,304,No,hypertrophy of heart,162,Yes,0,2,3,No
+240,35,M,Type 0,126,282,No,hypertrophy of heart,156,Yes,0,2,0,No
+241,70,M,Type 2,160,269,No,myocardial infarction,112,Yes,2.9,1,1,No
+242,59,F,Type 0,174,249,No,myocardial infarction,143,Yes,0,1,0,No
+243,64,M,Type 0,145,212,No,hypertrophy of heart,132,No,2,1,2,No
+244,57,M,Type 0,152,274,No,myocardial infarction,88,Yes,1.2,1,1,No
+245,56,M,Type 0,132,184,No,hypertrophy of heart,105,Yes,2.1,1,1,No
+246,48,M,Type 0,124,274,No,hypertrophy of heart,166,No,0.5,1,0,No
+247,56,F,Type 0,134,409,No,hypertrophy of heart,150,Yes,1.9,1,2,No
+248,66,M,Type 1,160,246,No,myocardial infarction,120,Yes,0,1,3,No
+249,54,M,Type 1,192,283,No,hypertrophy of heart,195,No,0,2,1,No
+250,69,M,Type 2,140,254,No,hypertrophy of heart,146,No,2,1,3,No
+251,51,M,Type 0,140,298,No,myocardial infarction,122,Yes,4.2,1,3,No
+252,43,M,Type 0,132,247,Yes,hypertrophy of heart,143,Yes,0.1,1,4,No
+253,62,F,Type 0,138,294,Yes,myocardial infarction,106,No,1.9,1,3,No
+254,67,M,Type 0,100,299,No,hypertrophy of heart,125,Yes,0.9,1,2,No
+255,59,M,Type 3,160,273,No,hypertrophy of heart,125,No,0,2,0,No
+256,45,M,Type 0,142,309,No,hypertrophy of heart,147,Yes,0,1,3,No
+257,58,M,Type 0,128,259,No,hypertrophy of heart,130,Yes,3,1,2,No
+258,50,M,Type 0,144,200,No,hypertrophy of heart,126,Yes,0.9,1,0,No
+259,62,F,Type 0,150,244,No,myocardial infarction,154,Yes,1.4,1,0,No
+260,38,M,Type 3,120,231,No,myocardial infarction,182,Yes,3.8,1,0,No
+261,66,F,Type 0,178,228,Yes,myocardial infarction,165,Yes,1,1,2,No
+262,52,M,Type 0,112,230,No,myocardial infarction,160,No,0,2,1,No
+263,53,M,Type 0,123,282,No,myocardial infarction,95,Yes,2,1,2,No
+264,63,F,Type 0,108,269,No,myocardial infarction,169,Yes,1.8,1,2,No
+265,54,M,Type 0,110,206,No,hypertrophy of heart,108,Yes,0,1,1,No
+266,66,M,Type 0,112,212,No,hypertrophy of heart,132,Yes,0.1,2,1,No
+267,55,F,Type 0,180,327,No,ischemia,117,Yes,3.4,1,0,No
+268,49,M,Type 2,118,149,No,hypertrophy of heart,126,No,0.8,2,3,No
+269,54,M,Type 0,122,286,No,hypertrophy of heart,116,Yes,3.2,1,2,No
+270,56,M,Type 0,130,283,Yes,hypertrophy of heart,103,Yes,1.6,0,0,No
+271,46,M,Type 0,120,249,No,hypertrophy of heart,144,No,0.8,2,0,No
+272,61,M,Type 3,134,234,No,myocardial infarction,145,No,2.6,1,2,No
+273,67,M,Type 0,120,237,No,myocardial infarction,71,No,1,1,0,No
+274,58,M,Type 0,100,234,No,myocardial infarction,156,No,0.1,2,1,No
+275,47,M,Type 0,110,275,No,hypertrophy of heart,118,Yes,1,1,1,No
+276,52,M,Type 0,125,212,No,myocardial infarction,168,No,1,2,2,No
+277,58,M,Type 0,146,218,No,myocardial infarction,105,No,2,1,1,No
+278,57,M,Type 1,124,261,No,myocardial infarction,141,No,0.3,2,0,No
+279,58,F,Type 1,136,319,Yes,hypertrophy of heart,152,No,0,2,2,No
+280,61,M,Type 0,138,166,No,hypertrophy of heart,125,Yes,3.6,1,1,No
+281,42,M,Type 0,136,315,No,myocardial infarction,125,Yes,1.8,1,0,No
+282,52,M,Type 0,128,204,Yes,myocardial infarction,156,Yes,1,1,0,No
+283,59,M,Type 2,126,218,Yes,myocardial infarction,134,No,2.2,1,1,No
+284,40,M,Type 0,152,223,No,myocardial infarction,181,No,0,2,0,No
+285,61,M,Type 0,140,207,No,hypertrophy of heart,138,Yes,1.9,2,1,No
+286,46,M,Type 0,140,311,No,myocardial infarction,120,Yes,1.8,1,2,No
+287,59,M,Type 3,134,204,No,myocardial infarction,162,No,0.8,2,2,No
+288,57,M,Type 1,154,232,No,hypertrophy of heart,164,No,0,2,1,No
+289,57,M,Type 0,110,335,No,myocardial infarction,143,Yes,3,1,1,No
+290,55,F,Type 0,128,205,No,ischemia,130,Yes,2,1,1,No
+291,61,M,Type 0,148,203,No,myocardial infarction,161,No,0,2,1,No
+292,58,M,Type 0,114,318,No,ischemia,140,No,4.4,0,3,No
+293,58,F,Type 0,170,225,Yes,hypertrophy of heart,146,Yes,2.8,1,2,No
+294,67,M,Type 2,152,212,No,hypertrophy of heart,150,No,0.8,1,0,No
+295,44,M,Type 0,120,169,No,myocardial infarction,144,Yes,2.8,0,0,No
+296,63,M,Type 0,140,187,No,hypertrophy of heart,144,Yes,4,2,2,No
+297,63,F,Type 0,124,197,No,myocardial infarction,136,Yes,0,1,0,No
+298,59,M,Type 0,164,176,Yes,hypertrophy of heart,90,No,1,1,2,No
+299,57,F,Type 0,140,241,No,myocardial infarction,123,Yes,0.2,1,0,No
+300,45,M,Type 3,110,264,No,myocardial infarction,132,No,1.2,1,0,No
+301,68,M,Type 0,144,193,Yes,myocardial infarction,141,No,3.4,1,2,No
+302,57,M,Type 0,130,131,No,myocardial infarction,115,Yes,1.2,1,1,No
+303,57,F,Type 1,130,236,No,hypertrophy of heart,174,No,0,1,1,No
