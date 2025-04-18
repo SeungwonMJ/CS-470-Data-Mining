@@ -73,6 +73,15 @@ model_type = 'linear_regression'  # Change this to 'linear_regression' or 'neura
 df = apply_normalization(df, model_type)
 
 # ===============================
+# Check Missing Values
+# ===============================
+missing_values = df.isnull().sum().sum()
+if missing_values == 0:
+    print("No missing values in the dataset.")
+else:
+    print(f"There are {missing_values} missing values remaining.")
+
+# ===============================
 # Preview: Print First Row
 # ===============================
 # print(df.iloc[0])
