@@ -161,8 +161,8 @@ def main():
     # ================================================
     # Define Age Groups: Young (<=30), Middle-aged (30-60), and Senior (>60)
     # ================================================ 
-    bins = [0, 40, 60, float('inf')]
-    labels = ['Young', 'Middle-aged', 'Senior']
+    bins = [0, 55, float('inf')]
+    labels = ['Younger', 'Older']
     df['Age Group'] = pd.cut(df['age'], bins=bins, labels=labels, right=True)
     
     print("\n")
