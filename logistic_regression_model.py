@@ -159,11 +159,11 @@ def main():
     print(f"Average ROC AUC  : {np.mean(roc_auc_scores):.4f}")
 
     # ================================================
-    # Define Age Groups: Young (<=30), Middle-aged (30-60), and Senior (>60)
+    # Define Age Groups: Younger (<55) and Older (>=55)
     # ================================================ 
     bins = [0, 55, float('inf')]
     labels = ['Younger', 'Older']
-    df['Age Group'] = pd.cut(df['age'], bins=bins, labels=labels, right=True)
+    df['Age Group'] = pd.cut(df['age'], bins=bins, labels=labels, right=False)
     
     print("\n")
     print(df['Age Group'].value_counts())
