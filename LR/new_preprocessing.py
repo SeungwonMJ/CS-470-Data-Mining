@@ -7,8 +7,16 @@ import numpy as np
 df = pd.read_csv("heart.csv")
 
 # ===============================
-# Preprocess the Dataset - Already done in file
+# Preprocess the Dataset
 # ===============================
+# One-hot encode categorical columns
+df = pd.get_dummies(df, columns=['cp', 'restecg', 'slope', 'thal'], drop_first=True)
+df = df.astype(int)
+
+# ===============================
+# Remove Duplicates
+# ===============================
+df = df.drop_duplicates()
 
 # ===============================
 # Normalization Functions (Linear Regression = z-score, Neural Network = Min-Max, Ramdom Forest = None)

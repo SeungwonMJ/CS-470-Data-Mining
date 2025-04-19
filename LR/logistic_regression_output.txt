@@ -1,136 +1,137 @@
 Applying Z-score normalization for Linear Regression...
+No missing values in the dataset.
 ========== MODEL EVALUATION for the whole dataset ==========
-Accuracy Score: 0.8098
+Accuracy Score: 0.8525
 
 Confusion Matrix:
-[[70 30]
- [ 9 96]]
+[[24  4]
+ [ 5 28]]
 
 Classification Report:
               precision    recall  f1-score   support
 
-           0       0.89      0.70      0.78       100
-           1       0.76      0.91      0.83       105
+           0       0.83      0.86      0.84        28
+           1       0.88      0.85      0.86        33
 
-    accuracy                           0.81       205
-   macro avg       0.82      0.81      0.81       205
-weighted avg       0.82      0.81      0.81       205
+    accuracy                           0.85        61
+   macro avg       0.85      0.85      0.85        61
+weighted avg       0.85      0.85      0.85        61
 
 
-ROC AUC Score: 0.9301
+ROC AUC Score: 0.9026
 ========== FEATURE IMPORTANCE for the whole dataset ==========
 
 Top 5 Most Influential Features for the whole dataset:
-sex        1.611681
-exang      1.029769
-cp         0.868112
-ca         0.753988
-oldpeak    0.610375
+cp_2     1.513228
+cp_3     1.278922
+sex      1.274889
+exang    0.915756
+ca       0.781951
 dtype: float64
 
 ========== 5-FOLD CROSS-VALIDATION (Full Metrics) for the whole dataset ==========
-Fold 1: Accuracy = 0.8341, Precision = 0.8344, Recall = 0.8341, F1 = 0.8342, ROC AUC = 0.9051
-Fold 2: Accuracy = 0.8634, Precision = 0.8645, Recall = 0.8634, F1 = 0.8632, ROC AUC = 0.9409
-Fold 3: Accuracy = 0.8341, Precision = 0.8351, Recall = 0.8341, F1 = 0.8339, ROC AUC = 0.9220
-Fold 4: Accuracy = 0.8390, Precision = 0.8532, Recall = 0.8390, F1 = 0.8369, ROC AUC = 0.9030
-Fold 5: Accuracy = 0.8537, Precision = 0.8580, Recall = 0.8537, F1 = 0.8529, ROC AUC = 0.9315
+Fold 1: Accuracy = 0.8197, Precision = 0.8534, Recall = 0.8197, F1 = 0.8179, ROC AUC = 0.8777
+Fold 2: Accuracy = 0.9016, Precision = 0.9168, Recall = 0.9016, F1 = 0.8998, ROC AUC = 0.9437
+Fold 3: Accuracy = 0.8000, Precision = 0.8000, Recall = 0.8000, F1 = 0.8000, ROC AUC = 0.9040
+Fold 4: Accuracy = 0.8833, Precision = 0.8861, Recall = 0.8833, F1 = 0.8824, ROC AUC = 0.9091
+Fold 5: Accuracy = 0.8167, Precision = 0.8181, Recall = 0.8167, F1 = 0.8153, ROC AUC = 0.9203
 
 ===== AVERAGE METRICS ACROSS 5 FOLDS =====
-Average Accuracy : 0.8449
-Average Precision: 0.8490
-Average Recall   : 0.8449
-Average F1-score : 0.8442
-Average ROC AUC  : 0.9205
+Average Accuracy : 0.8443
+Average Precision: 0.8549
+Average Recall   : 0.8443
+Average F1-score : 0.8431
+Average ROC AUC  : 0.9110
 
 
 Age Group
-Older      549
-Younger    476
+Older      159
+Younger    143
 Name: count, dtype: int64
 29 77
 
 ========== EVALUATION FOR Younger AGE GROUP ==========
-Accuracy Score: 0.8958
+Accuracy Score: 0.6552
 
 Confusion Matrix:
-[[27  5]
- [ 5 59]]
+[[ 5  4]
+ [ 6 14]]
 
 Classification Report:
               precision    recall  f1-score   support
 
-           0       0.84      0.84      0.84        32
-           1       0.92      0.92      0.92        64
+           0       0.45      0.56      0.50         9
+           1       0.78      0.70      0.74        20
 
-    accuracy                           0.90        96
-   macro avg       0.88      0.88      0.88        96
-weighted avg       0.90      0.90      0.90        96
+    accuracy                           0.66        29
+   macro avg       0.62      0.63      0.62        29
+weighted avg       0.68      0.66      0.66        29
 
 
-ROC AUC Score (Younger): 0.9551
+ROC AUC Score (Younger): 0.7611
 ========== FEATURE IMPORTANCE ==========
 
 Top 5 Most Influential Features:
-sex        2.200091
-cp         1.331016
-oldpeak    0.883696
-exang      0.827424
-thal       0.706435
+cp_2       1.457772
+sex        1.331324
+thal_2     1.203793
+thal_3     1.020499
+oldpeak    0.977969
 dtype: float64
 
 ========== 5-FOLD CROSS-VALIDATION for Younger AGE GROUP ==========
-Fold 1: Accuracy = 0.8646, Precision = 0.8637, Recall = 0.8646, F1 = 0.8614, ROC AUC = 0.8955
-Fold 2: Accuracy = 0.9263, Precision = 0.9339, Recall = 0.9263, F1 = 0.9275, ROC AUC = 0.9678
-Fold 3: Accuracy = 0.9053, Precision = 0.9091, Recall = 0.9053, F1 = 0.9062, ROC AUC = 0.9554
-Fold 4: Accuracy = 0.8526, Precision = 0.8557, Recall = 0.8526, F1 = 0.8538, ROC AUC = 0.9022
-Fold 5: Accuracy = 0.9263, Precision = 0.9299, Recall = 0.9263, F1 = 0.9271, ROC AUC = 0.9607
+Fold 1: Accuracy = 0.8621, Precision = 0.8621, Recall = 0.8621, F1 = 0.8621, ROC AUC = 0.9611
+Fold 2: Accuracy = 0.7586, Precision = 0.8642, Recall = 0.7586, F1 = 0.7668, ROC AUC = 0.9111
+Fold 3: Accuracy = 0.8621, Precision = 0.8770, Recall = 0.8621, F1 = 0.8653, ROC AUC = 0.9722
+Fold 4: Accuracy = 0.8571, Precision = 0.8571, Recall = 0.8571, F1 = 0.8518, ROC AUC = 0.9474
+Fold 5: Accuracy = 0.8571, Precision = 0.8571, Recall = 0.8571, F1 = 0.8571, ROC AUC = 0.8625
 
 ===== AVERAGE METRICS for Younger AGE GROUP =====
-Average Accuracy : 0.8950
-Average Precision: 0.8985
-Average Recall   : 0.8950
-Average F1-score : 0.8952
-Average ROC AUC  : 0.9363
+Average Accuracy : 0.8394
+Average Precision: 0.8635
+Average Recall   : 0.8394
+Average F1-score : 0.8406
+Average ROC AUC  : 0.9309
 
 ========== EVALUATION FOR Older AGE GROUP ==========
-Accuracy Score: 0.8636
+Accuracy Score: 0.7188
 
 Confusion Matrix:
-[[60  8]
- [ 7 35]]
+[[13  6]
+ [ 3 10]]
 
 Classification Report:
               precision    recall  f1-score   support
 
-           0       0.90      0.88      0.89        68
-           1       0.81      0.83      0.82        42
+           0       0.81      0.68      0.74        19
+           1       0.62      0.77      0.69        13
 
-    accuracy                           0.86       110
-   macro avg       0.85      0.86      0.86       110
-weighted avg       0.86      0.86      0.86       110
+    accuracy                           0.72        32
+   macro avg       0.72      0.73      0.72        32
+weighted avg       0.74      0.72      0.72        32
 
 
-ROC AUC Score (Older): 0.8263
+ROC AUC Score (Older): 0.7935
 ========== FEATURE IMPORTANCE ==========
 
 Top 5 Most Influential Features:
-ca         1.715151
-sex        1.446252
-exang      0.882433
-thalach    0.591353
-thal       0.498619
+restecg_1    1.306774
+cp_3         1.220679
+exang        1.205701
+cp_2         0.815003
+ca           0.734936
 dtype: float64
 
 ========== 5-FOLD CROSS-VALIDATION for Older AGE GROUP ==========
-Fold 1: Accuracy = 0.7727, Precision = 0.8257, Recall = 0.7727, F1 = 0.7760, ROC AUC = 0.9095
-Fold 2: Accuracy = 0.8273, Precision = 0.8428, Recall = 0.8273, F1 = 0.8295, ROC AUC = 0.9191
-Fold 3: Accuracy = 0.8636, Precision = 0.8697, Recall = 0.8636, F1 = 0.8649, ROC AUC = 0.9013
-Fold 4: Accuracy = 0.7818, Precision = 0.8065, Recall = 0.7818, F1 = 0.7849, ROC AUC = 0.8652
-Fold 5: Accuracy = 0.8440, Precision = 0.8506, Recall = 0.8440, F1 = 0.8455, ROC AUC = 0.9207
+Fold 1: Accuracy = 0.8750, Precision = 0.8967, Recall = 0.8750, F1 = 0.8696, ROC AUC = 0.8623
+Fold 2: Accuracy = 0.7812, Precision = 0.8222, Recall = 0.7812, F1 = 0.7823, ROC AUC = 0.9028
+Fold 3: Accuracy = 0.7500, Precision = 0.8047, Recall = 0.7500, F1 = 0.7500, ROC AUC = 0.9069
+Fold 4: Accuracy = 0.7500, Precision = 0.8452, Recall = 0.7500, F1 = 0.7461, ROC AUC = 0.8785
+Fold 5: Accuracy = 0.7419, Precision = 0.7405, Recall = 0.7419, F1 = 0.7380, ROC AUC = 0.8205
 
 ===== AVERAGE METRICS for Older AGE GROUP =====
-Average Accuracy : 0.8179
-Average Precision: 0.8391
-Average Recall   : 0.8179
-Average F1-score : 0.8202
-Average ROC AUC  : 0.9032
+Average Accuracy : 0.7796
+Average Precision: 0.8219
+Average Recall   : 0.7796
+Average F1-score : 0.7772
+Average ROC AUC  : 0.8742
