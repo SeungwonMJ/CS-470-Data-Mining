@@ -1,6 +1,6 @@
 # CS-470-Data-Mining
 
-# Heart Attack Risk Prediction Project
+# Heart Attack Risk Prediction: A Data Mining Approach
 
 This project uses data mining to predict the risk of heart attacks, focusing on how different health factors matter for different age groups. We looked at a dataset of 302 patients with 14 health features.
 
