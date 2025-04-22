@@ -107,10 +107,10 @@ def main():
     # ================================================
     print("========== FEATURE IMPORTANCE for the whole dataset ==========")
     importance = pd.Series(model.coef_[0], index=X.columns)
-    importance_sorted = importance.abs().sort_values(ascending=False)
+    importance_sorted = importance.reindex(importance.abs().sort_values(ascending=False).index)
 
-    print("\nTop 5 Most Influential Features for the whole dataset:")
-    print(importance_sorted.head(5))
+    print("\nTop 10 Most Influential Features for the whole dataset:")
+    print(importance_sorted.head(10))
 
     # ================================================
     # K-Fold Cross-Validation (k=5) with Full Metrics
@@ -151,12 +151,12 @@ def main():
 
         print(f"Fold {fold}: Accuracy = {acc:.4f}, Precision = {prec:.4f}, Recall = {rec:.4f}, F1 = {f1:.4f}, ROC AUC = {auc:.4f}")
 
-    print("\n===== AVERAGE METRICS ACROSS 5 FOLDS =====")
-    print(f"Average Accuracy : {np.mean(accuracy_scores):.4f}")
-    print(f"Average Precision: {np.mean(precision_scores):.4f}")
-    print(f"Average Recall   : {np.mean(recall_scores):.4f}")
-    print(f"Average F1-score : {np.mean(f1_scores):.4f}")
-    print(f"Average ROC AUC  : {np.mean(roc_auc_scores):.4f}")
+    print("\n===== AVERAGE METRICS ACROSS 5 FOLDS (± Std Dev) =====")
+    print(f"Accuracy : {np.mean(accuracy_scores):.4f} ± {np.std(accuracy_scores):.4f}")
+    print(f"Precision: {np.mean(precision_scores):.4f} ± {np.std(precision_scores):.4f}")
+    print(f"Recall   : {np.mean(recall_scores):.4f} ± {np.std(recall_scores):.4f}")
+    print(f"F1-score : {np.mean(f1_scores):.4f} ± {np.std(f1_scores):.4f}")
+    print(f"ROC AUC  : {np.mean(roc_auc_scores):.4f} ± {np.std(roc_auc_scores):.4f}")
 
     # ================================================
     # Define Age Groups: Younger (<55) and Older (>=55)
@@ -164,7 +164,7 @@ def main():
     bins = [0, 55, float('inf')]
     labels = ['Younger', 'Older']
     df['Age Group'] = pd.cut(df['age'], bins=bins, labels=labels, right=False)
-    
+
     print("\n")
     print(df['Age Group'].value_counts())
     print(df['age'].min(), df['age'].max())
@@ -221,9 +221,9 @@ def main():
         # Feature Importance (Coefficients)
         print("========== FEATURE IMPORTANCE ==========")
         importance = pd.Series(model.coef_[0], index=X_age_group.columns)
-        importance_sorted = importance.abs().sort_values(ascending=False)
-        print("\nTop 5 Most Influential Features:")
-        print(importance_sorted.head(5))
+        importance_sorted = importance.reindex(importance.abs().sort_values(ascending=False).index)
+        print("\nTop 10 Most Influential Features:")
+        print(importance_sorted.head(10))
 
         # K-Fold CV for Age Group (with full metrics)
         print(f"\n========== 5-FOLD CROSS-VALIDATION for {age_group} AGE GROUP ==========")
@@ -261,11 +261,11 @@ def main():
             print(f"Fold {fold}: Accuracy = {acc:.4f}, Precision = {prec:.4f}, Recall = {rec:.4f}, F1 = {f1:.4f}, ROC AUC = {auc:.4f}")
 
         print(f"\n===== AVERAGE METRICS for {age_group} AGE GROUP =====")
-        print(f"Average Accuracy : {np.mean(acc_scores):.4f}")
-        print(f"Average Precision: {np.mean(precision_scores):.4f}")
-        print(f"Average Recall   : {np.mean(recall_scores):.4f}")
-        print(f"Average F1-score : {np.mean(f1_scores):.4f}")
-        print(f"Average ROC AUC  : {np.mean(auc_scores):.4f}")
+        print(f"Average Accuracy : {np.mean(acc_scores):.4f} ± {np.std(acc_scores):.4f}")
+        print(f"Average Precision: {np.mean(precision_scores):.4f} ± {np.std(precision_scores):.4f}")
+        print(f"Average Recall   : {np.mean(recall_scores):.4f} ± {np.std(recall_scores):.4f}")
+        print(f"Average F1-score : {np.mean(f1_scores):.4f} ± {np.std(f1_scores):.4f}")
+        print(f"Average ROC AUC  : {np.mean(auc_scores):.4f} ± {np.std(auc_scores):.4f}")
 
     # ================================================
     # Train and Evaluate for Each Age Group

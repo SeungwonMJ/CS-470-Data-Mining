@@ -21,12 +21,17 @@ weighted avg       0.85      0.85      0.85        61
 ROC AUC Score: 0.9026
 ========== FEATURE IMPORTANCE for the whole dataset ==========
 
-Top 5 Most Influential Features for the whole dataset:
-cp_2     1.513228
-cp_3     1.278922
-sex      1.274889
-exang    0.915756
-ca       0.781951
+Top 10 Most Influential Features for the whole dataset:
+cp_2         1.513228
+cp_3         1.278922
+sex         -1.274889
+exang       -0.915756
+ca          -0.781951
+thal_3      -0.734628
+cp_1         0.587933
+thal_2       0.529002
+restecg_1    0.428682
+slope_1     -0.393348
 dtype: float64
 
 ========== 5-FOLD CROSS-VALIDATION (Full Metrics) for the whole dataset ==========
@@ -36,12 +41,12 @@ Fold 3: Accuracy = 0.8000, Precision = 0.8000, Recall = 0.8000, F1 = 0.8000, ROC
 Fold 4: Accuracy = 0.8833, Precision = 0.8861, Recall = 0.8833, F1 = 0.8824, ROC AUC = 0.9091
 Fold 5: Accuracy = 0.8167, Precision = 0.8181, Recall = 0.8167, F1 = 0.8153, ROC AUC = 0.9203
 
-===== AVERAGE METRICS ACROSS 5 FOLDS =====
-Average Accuracy : 0.8443
-Average Precision: 0.8549
-Average Recall   : 0.8443
-Average F1-score : 0.8431
-Average ROC AUC  : 0.9110
+===== AVERAGE METRICS ACROSS 5 FOLDS (¡¾ Std Dev) =====
+Accuracy : 0.8443 ¡¾ 0.0404
+Precision: 0.8549 ¡¾ 0.0428
+Recall   : 0.8443 ¡¾ 0.0404
+F1-score : 0.8431 ¡¾ 0.0401
+ROC AUC  : 0.9110 ¡¾ 0.0215
 
 
 Age Group
@@ -71,12 +76,17 @@ weighted avg       0.68      0.66      0.66        29
 ROC AUC Score (Younger): 0.7611
 ========== FEATURE IMPORTANCE ==========
 
-Top 5 Most Influential Features:
+Top 10 Most Influential Features:
 cp_2       1.457772
-sex        1.331324
+sex       -1.331324
 thal_2     1.203793
-thal_3     1.020499
-oldpeak    0.977969
+thal_3    -1.020499
+oldpeak   -0.977969
+fbs        0.965833
+cp_1       0.782409
+ca        -0.714712
+exang     -0.666535
+cp_3       0.580225
 dtype: float64
 
 ========== 5-FOLD CROSS-VALIDATION for Younger AGE GROUP ==========
@@ -87,11 +97,11 @@ Fold 4: Accuracy = 0.8571, Precision = 0.8571, Recall = 0.8571, F1 = 0.8518, ROC
 Fold 5: Accuracy = 0.8571, Precision = 0.8571, Recall = 0.8571, F1 = 0.8571, ROC AUC = 0.8625
 
 ===== AVERAGE METRICS for Younger AGE GROUP =====
-Average Accuracy : 0.8394
-Average Precision: 0.8635
-Average Recall   : 0.8394
-Average F1-score : 0.8406
-Average ROC AUC  : 0.9309
+Average Accuracy : 0.8394 ¡¾ 0.0405
+Average Precision: 0.8635 ¡¾ 0.0073
+Average Recall   : 0.8394 ¡¾ 0.0405
+Average F1-score : 0.8406 ¡¾ 0.0372
+Average ROC AUC  : 0.9309 ¡¾ 0.0399
 
 ========== EVALUATION FOR Older AGE GROUP ==========
 Accuracy Score: 0.7188
@@ -114,12 +124,17 @@ weighted avg       0.74      0.72      0.72        32
 ROC AUC Score (Older): 0.7935
 ========== FEATURE IMPORTANCE ==========
 
-Top 5 Most Influential Features:
+Top 10 Most Influential Features:
 restecg_1    1.306774
 cp_3         1.220679
-exang        1.205701
+exang       -1.205701
 cp_2         0.815003
-ca           0.734936
+ca          -0.734936
+slope_1     -0.670169
+oldpeak     -0.618697
+cp_1         0.399967
+sex         -0.384362
+slope_2     -0.376533
 dtype: float64
 
 ========== 5-FOLD CROSS-VALIDATION for Older AGE GROUP ==========
@@ -130,8 +145,8 @@ Fold 4: Accuracy = 0.7500, Precision = 0.8452, Recall = 0.7500, F1 = 0.7461, ROC
 Fold 5: Accuracy = 0.7419, Precision = 0.7405, Recall = 0.7419, F1 = 0.7380, ROC AUC = 0.8205
 
 ===== AVERAGE METRICS for Older AGE GROUP =====
-Average Accuracy : 0.7796
-Average Precision: 0.8219
-Average Recall   : 0.7796
-Average F1-score : 0.7772
-Average ROC AUC  : 0.8742
+Average Accuracy : 0.7796 ¡¾ 0.0495
+Average Precision: 0.8219 ¡¾ 0.0511
+Average Recall   : 0.7796 ¡¾ 0.0495
+Average F1-score : 0.7772 ¡¾ 0.0486
+Average ROC AUC  : 0.8742 ¡¾ 0.0314
