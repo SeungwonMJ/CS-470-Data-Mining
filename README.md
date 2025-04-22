@@ -8,9 +8,9 @@ We used three different computer models (Logistic Regression, Neural Networks, a
 
 **What we found:**
 
-* For everyone, the **type of chest pain** and the **number of blocked heart vessels** were the most important signs.
+* For everyone, the **type of chest pain** and the **number of major vessels colored by fluoroscopy** were the most important signs.
 * In younger people (under 55), things like **sex** and a blood disorder called **thalassemia** were important for one of our models.
-* In older people (55 and older), **EKG results** and how the heart reacts to exercise became more important for one of the models.
+* In older people (55 and older), **ECG results** and how the heart reacts to exercise became more important for one of the models.
 * Overall, Logistic Regression was the most accurate model for predicting heart attacks in general.
 
 **Why this matters:**
