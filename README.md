@@ -2,7 +2,7 @@
 
 # Heart Attack Risk Prediction Project
 
-This project uses data mining to predict the risk of heart attacks, focusing on how different health factors matter for different age groups. We looked at a dataset of 300 patients with 14 health features.
+This project uses data mining to predict the risk of heart attacks, focusing on how different health factors matter for different age groups. We looked at a dataset of 302 patients with 14 health features.
 
 We used three different computer models (Logistic Regression, Neural Networks, and Random Forests) to predict who might have a heart attack. We also split the patients into two groups: those under 55 and those 55 and older, to see if different things predict risk in these groups.
 
